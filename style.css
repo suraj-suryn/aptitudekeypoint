@@ -1,0 +1,109 @@
+/*Body section*/
+
+body {
+    background-image: linear-gradient(rgb(100, 100, 300), rgb(80, 60, 20));
+}
+
+
+/*Header Section*/
+
+.item1 {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    margin: 15px 0px 15px 0px;
+}
+
+.tag-line {
+    display: block;
+    font-size: 18px;
+}
+
+
+/*End Hearder Section*/
+
+
+/*Menu Section*/
+
+.item2 a {
+    text-decoration: none;
+    color: rgb(228, 216, 208);
+}
+
+.flex-menu-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item2 .flex-menu-container>div {
+    padding: 10px;
+    text-align: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.item2 a:hover {
+    text-decoration: underline;
+}
+
+
+/*end menu section*/
+
+
+/*Content Section*/
+
+.item3 a {
+    line-height: 30px;
+    text-decoration: none;
+    color: rgb(223, 217, 213);
+}
+
+.item3.flex-content-list {
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+}
+
+.item3 .flex-content-list>div {
+    margin: 10px;
+    text-align: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.item3 a:hover {
+    text-decoration: underline;
+}
+
+
+/*end content section*/
+
+
+/*Main section*/
+
+.item4 {
+    background-color: seashell;
+}
+
+.item4 .main-content {
+    margin: 20px;
+}
+
+.item4 .main-content .main-content-title {
+    display: flex;
+    font-size: 30px;
+    font-family: Helvetica, sans-serif;
+    justify-content: center;
+}
+
+
+/*end section main */
+
+
+/*Advetisement section */
+
+.item5 .ad-content {}
