@@ -1,2 +1,0 @@
-# aptitudekeypoint
-Aptitude key point
